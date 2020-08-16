@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
     public static final String KEY_ITEM_TEXT = "item_text";
     public static final String KEY_ITEM_POSITION = "item_position";
     public static final int  EDIT_TEXT_CODE = 20;
+
+
     List<String> items;
 
     Button btnAdd;
@@ -37,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnAdd = findViewById(R.id.btnAdd);
+        btnAdd = findViewById(R.id.btnAddItem);
         etItem = findViewById(R.id.etItem);
         rvItems = findViewById(R.id.rvItems);
 

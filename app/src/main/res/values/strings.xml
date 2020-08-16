@@ -3,4 +3,7 @@
     <string name="add_an_item_here">Add an item here!</string>
     <string name="add">Add</string>
     <string name="update_the_item">Update the item</string>
+    <string name="add_date_here">Add date here</string>
+    <string name="add_event_here">Add event here!</string>
+    <string name="add_here">Add here</string>
 </resources>
